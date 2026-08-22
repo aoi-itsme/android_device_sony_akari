@@ -2,4 +2,4 @@
 touch.deviceType = touchScreen
 
 # Pressure
-touch.pressure.scale = 0.007
+touch.pressure.scale = 0.001

@@ -8,20 +8,25 @@
 $(call inherit-product, device/sony/akari/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Setup keystore
 -include vendor/lineage-priv/keys/keys.mk
 
-PRODUCT_NAME := lineage_akari
+PRODUCT_NAME := infinity_akari
 PRODUCT_DEVICE := akari
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Xperia XZ2
 
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_BLUR := true
 TARGET_ENABLE_BLUR := true
 TARGET_DISABLE_EPPE := true
+
+INFINITY_MAINTAINER := Aoitsme
+WITH_GAPPS := false
+PRODUCT_NO_CAMERA := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-sony-mobile
 

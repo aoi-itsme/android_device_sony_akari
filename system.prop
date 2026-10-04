@@ -4,7 +4,7 @@ camera.disable_zsl_mode=1
 # SEMC
 ro.semc.ms_type_id=PM-1119-BV
 ro.semc.product.device=H82
-ro.semc.product.model=H8296
+ro.semc.product.model=H8216
 ro.semc.product.name=Xperia XZ2
 ro.semc.version.fs=GENERIC
 ro.semc.version.fs_revision=52.1.A.3.49

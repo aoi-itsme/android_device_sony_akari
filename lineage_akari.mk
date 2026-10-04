@@ -26,5 +26,5 @@ TARGET_DISABLE_EPPE := true
 PRODUCT_GMS_CLIENTID_BASE := android-sony-mobile
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="H8296-user 10 52.1.A.3.49 052001A003004902006556692 release-keys" \
-    BuildFingerprint=Sony/H8296/H8296:10/52.1.A.3.49/052001A003004902006556692:user/release-keys
+    BuildDesc="H8216-user 10 52.1.A.3.49 052001A003004902006556692 release-keys" \
+    BuildFingerprint=Sony/H8216/H8216:10/52.1.A.3.49/052001A003004902006556692:user/release-keys

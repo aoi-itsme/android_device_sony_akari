@@ -111,5 +111,5 @@
 
     <!-- MMS user agent prolfile url -->
     <string name="config_mms_user_agent_profile_url" translatable="false"
-            >http://uaprof.sonymobile.com/H8296R5111.xml</string>
+            >http://uaprof.sonymobile.com/H8216R5111.xml</string>
 </resources>
